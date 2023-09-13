@@ -1,0 +1,130 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the navbar */
+.navbar {
+  background-color: #393939;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 20px;
+}
+
+.navbar_ {
+  background-color: #393939;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+/* Style the menu icon */
+.menu-icon {
+  display: none; /* Hide initially on larger screens */
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Style the logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.logo img {
+    width: 100px; /* Set the width to your desired size */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+}
+
+/* FOOTER */
+
+.main-contain {
+  background-color: #302e2e;
+  padding: 15px;
+}
+
+.options {
+  margin: 2em;
+}
+
+.option {
+  margin-left: 15px;
+}
+
+.optionLink {
+  color: #adadad;
+  text-decoration: none;
+}
+
+.optionLink:active {
+  color: #8e8e8e;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2em;
+}
+
+.contactText {
+  color: #adadad;
+  margin-bottom: 15px;
+}
+
+.telephoneContain {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.telephoneIcon {
+}
+
+.telephoneInfo {
+  margin-left: 10px;
+  color: #adadad;
+}
+
+.social {
+}
+
+.socialText {
+  color: #adadad;
+  margin-bottom: 15px;
+}
+
+.social_ {
+  margin-left: 15px;
+}
+
+.social_:active {
+  color: #302e2e;
+}
+
+.copyRight {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+
+.copyRightText {
+  color: #adadad;
+  text-decoration: underline;
+}

@@ -1,0 +1,112 @@
+/* Style for the product card */
+.product-card {
+  position: relative;
+  width: 300px; /* Adjust the card width as needed */
+  height: 100%;
+  overflow: hidden;
+  transition: width 0.3s, height 0.3s;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(6, 6, 6, 0.386);
+  width: 305px;
+
+}
+
+/* Style for the product image */
+.product-card img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Style for the overlay */
+.overlay {
+  position: absolute;
+  top: 3em;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style the like icon */
+.like-icon {
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.like-icon:active {
+  color: rgb(255, 0, 0);
+}
+
+.product-infos {
+  width: 100%;
+  height: auto;
+  background-color: #00000000;
+  padding: 5px;
+}
+
+.product-infos:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+/* Style for the product name */
+.product-name {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+/* Style for the product price */
+.product-price {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the contact button */
+.btn-contact {
+  background-color: #1f7704;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bolder;
+  border-radius: 10em;
+  margin-bottom: 30px;
+}
+
+.btn-contact:hover {
+  background-color: #1d6f02;
+}
+
+.btn-contact:active {
+  background-color: #196400;
+}
+
+/* Hover effect to show the overlay */
+/* .product-card:hover .overlay {
+  opacity: 1;
+} */

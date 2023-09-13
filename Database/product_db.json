@@ -1,0 +1,9 @@
+{
+  "image": "IMG",
+  "name": "name",
+  "description": "description",
+  "price": "price",
+  "like": "false",
+  "quantity": "quantity",
+  "mode_details": "mode_details"
+}
