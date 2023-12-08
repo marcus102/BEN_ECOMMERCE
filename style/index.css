@@ -50,13 +50,6 @@
   font-weight: bold;
 }
 
-/* Style the menu icon */
-/* .menu-icon {
-  display: none; 
-  cursor: pointer;
-  font-size: 24px;
-} */
-
 /* Style the logo */
 .logo {
   font-size: 24px;
@@ -65,8 +58,8 @@
 }
 
 .logo img {
-  width: 100px; /* Set the width to your desired size */
-  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  width: 100px;
+  height: auto;
   cursor: pointer;
   overflow: hidden;
 }
@@ -122,10 +115,6 @@
   color: #adadad;
 }
 
-/* .social{
-
-} */
-
 .social .socialText {
   color: #adadad;
   margin-bottom: 15px;
@@ -158,7 +147,6 @@
   background-color: rgba(235, 235, 235, 0.244);
   border-radius: 30px;
   box-shadow: 2px 2px 5px 1px rgba(97, 97, 97, 0.137);
-  /* border: 2px solid rgba(6, 83, 0, 0.484); */
   margin: 50px 10px;
   padding: 10px 20px;
 }
@@ -214,7 +202,6 @@
   background-color: rgba(235, 235, 235, 0.244);
   border-radius: 30px 10px;
   box-shadow: 2px 2px 5px 1px rgba(97, 97, 97, 0.137);
-  /* border: 2px solid rgba(6, 83, 0, 0.484); */
   margin: 50px 10px;
   padding: 20px;
   transition: width 1s, height 1s;
@@ -271,7 +258,6 @@
   background-color: rgba(235, 235, 235, 0.244);
   border-radius: 30px 10px;
   box-shadow: 2px 2px 5px 1px rgba(97, 97, 97, 0.137);
-  /* border: 2px solid rgba(6, 83, 0, 0.484); */
   margin: 50px 10px;
   padding: 20px;
   transition: width 1s, height 1s;
@@ -302,7 +288,6 @@
   background-color: rgba(235, 235, 235, 0.244);
   border-radius: 30px 10px;
   box-shadow: 2px 2px 5px 1px rgba(97, 97, 97, 0.137);
-  /* border: 2px solid rgba(6, 83, 0, 0.484); */
   margin: 50px 10px;
   padding: 20px;
   transition: width 1s, height 1s;
@@ -347,7 +332,6 @@
   background-color: rgba(235, 235, 235, 0.244);
   border-radius: 30px 10px;
   box-shadow: 2px 2px 5px 1px rgba(97, 97, 97, 0.137);
-  /* border: 2px solid rgba(6, 83, 0, 0.484); */
   margin: 50px 10px;
   padding: 20px;
   transition: width 1s, height 1s;
@@ -395,7 +379,6 @@
   background-color: rgba(235, 235, 235, 0.244);
   border-radius: 30px 10px;
   box-shadow: 2px 2px 5px 1px rgba(97, 97, 97, 0.137);
-  /* border: 2px solid rgba(6, 83, 0, 0.484); */
   margin: 50px 10px;
   padding: 20px;
   transition: width 1s, height 1s;
@@ -434,7 +417,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   margin: 40px 0px 10px 0px;
-  /* border: 2px solid rgba(0, 0, 0, 0.484); */
 }
 
 .product-container {
@@ -442,23 +424,19 @@
   height: 17em;
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
   justify-content: space-evenly;
   margin: 10px 0px;
-  /* border: 2px solid rgba(244, 0, 175, 0.484); */
 }
 
 .product-sub-container {
   width: 50%;
   display: flex;
   justify-content: center;
-  /* margin: 0px 20px 0px 0px; */
-  /* border: 2px solid rgba(255, 0, 0, 0.484); */
 }
 
 .product-card {
   position: relative;
-  width: 300px; /* Adjust the card width as needed */
+  width: 300px;
   height: 100%;
   overflow: hidden;
   transition: width 0.4s, height 0.4s;
@@ -512,7 +490,7 @@
 }
 
 .product-infos:hover {
-  background-color: rgba(0, 0, 0, 0.31); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.31);
 }
 
 /* Style for the product name */
@@ -527,7 +505,7 @@
 
 /* Style for the product price */
 .product-price {
-  color: #2f432c;
+  color: #f6ee02;
   font-size: 18px;
   margin-bottom: 10px;
   margin-left: 10px;
@@ -614,9 +592,6 @@
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
-  /* .menu-icon {
-    display: block;
-  } */
 
   .assistance-container {
     width: 100%;
@@ -659,12 +634,6 @@
   .option{
     margin-bottom: 2rem;
   }
-
-  /* .social{
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-  } */
 
   .contacts{
     display: flex;
